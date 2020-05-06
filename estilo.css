@@ -9,7 +9,7 @@ body {
   background: linear-gradient(180deg, rgba(245, 245, 245, 0.8) 200px, rgba(245, 245, 245, 0.9) 300px, rgba(245, 245, 245, 1) 400px), url('file:///Users/Martina/Desktop/imagen%20fondo.jpg');
   background-size: 100% auto;
   background-repeat: no-repeat;
-  font-family: font-family: 'Montserrat Subrayada', sans-serif;
+  font-family:'Montserrat Subrayada', sans-serif;
   line-height: 1.4;
 }
 
@@ -25,7 +25,7 @@ a, em, strong {
 }
 
 h1 {
-  font-family: font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   color: #101891;
 }
 
