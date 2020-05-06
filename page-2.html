@@ -43,7 +43,7 @@
             <p><a href="page-1.html">Diversidad de Arrecifes Coralinos</a> Como vimos anteriormente en el link anterior estos importantes arrecifes están en peligro afectados por factores como el cambio climático, sobrepesca entre otros, causando su deterioro y muchas veces la muerte irrecuperable de estos. Acá te explicamos que es lo que pasa. Los corales contienen plantas microscópicas denominadas zooxantelas que dan color a sus tejidos y le proporcionan alimento a través de la fotosíntesis. Sin estas minúsculas plantas, los corales no pueden sobrevivir o deponer las grandes cantidades de caliza que contienen sus esqueletos. Cuando los corales están estresados, las zooxantelas son los primeros elementos que salen. Los corales estresados expelen las zooxantelas, y se vuelven blancos o más claros. Si las zooxantelas no regresan a los tejidos coralinos, el coral muere.</p>
             <figure>
                 <canvas id="uci"></canvas>
-                <figcaption>Indica fuente(s) de los datos</figcaption>
+                <figcaption>https://es.statista.com/</figcaption>
             </figure>
             <p> No estamos condenados a que todos los corales se pierdan debido al blanquemaiento, sin embargo debemos actuar hoy mismo si queremos proteger los corales para las
  futuras generaciones.
@@ -62,7 +62,7 @@
         new Chart(document.getElementById('uci').getContext('2d'), {
             type: 'bar',
             data: {
-                labels: ["01/04", "02/04", "03/04", "04/04", "05/04", "06/04"],
+                labels: ["2020"],
                 datasets: [{
                     label: 'SUDESTE ASIÁTICO',
                     borderColor: '#cc2f59',
@@ -70,6 +70,7 @@
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
+                    data: [94]
                 }, {
                     label: 'ATLANTICO',
                     borderColor: '#2b89f5',
@@ -77,6 +78,7 @@
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
+                    data: [75]
                 }, {
                     label: 'OCEÁNO ÍNDICO',
                     borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
@@ -84,27 +86,31 @@
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
+                    data: [66]
                 }, {
                       label: 'MEDIO ORIENTE',
-                      borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
-                      backgroundColor: '#6d2b65', // esto para darle consistencia a los colores en uso
+                      borderColor: '#C81EF1', // noten que este color coincide con el de h1{…} en el CSS
+                      backgroundColor: '#C81EF1', // esto para darle consistencia a los colores en uso
                       borderWidth: 1,
                       pointRadius: 2,
                       lineTension: 0,
+                      data: [65]
                 }, {
                           label: 'PACÍFICO',
-                          borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
-                          backgroundColor: '#6d2b65', // esto para darle consistencia a los colores en uso
+                          borderColor: '#B4F11E', // noten que este color coincide con el de h1{…} en el CSS
+                          backgroundColor: '#B4F11E', // esto para darle consistencia a los colores en uso
                           borderWidth: 1,
                           pointRadius: 2,
                           lineTension: 0,
+                          data: [48]
                 }, {
                                   label: 'AUSTRALIA',
-                                  borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
-                                  backgroundColor: '#6d2b65', // esto para darle consistencia a los colores en uso
+                                  borderColor: '#1EF1B4', // noten que este color coincide con el de h1{…} en el CSS
+                                  backgroundColor: '#1EF1B4', // esto para darle consistencia a los colores en uso
                                   borderWidth: 1,
                                   pointRadius: 2,
                                   lineTension: 0,
+                                  data: [14]
                 }]
             },
             options: {
